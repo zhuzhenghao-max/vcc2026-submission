@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Data and derived artifacts are never committed.
+data/*
+!data/README.md
+outputs/
+*.h5ad
+*.h5mu
+*.vcc
+*.parts/
